@@ -1,0 +1,385 @@
+.big-products {
+    padding: 0px 300px;
+    margin: 100px 0px;
+}
+
+.big-products h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.big-products .small-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.products1 .C {
+    width: 100%;
+    height: 100%;
+}
+
+
+.products h3 {
+    margin-top: 0px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.products p {
+    color: red;
+    font-size: small;
+}
+
+.big-product2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    margin: 0px 140px;
+}
+
+.big-product2 .small-product2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.big-product2 .small-product3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.product1 .A {
+    width: 100%;
+    height: 100%;
+}
+
+.product2 .B{
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.header p {
+    margin: 0px;
+    margin-top: 10px;
+    color: #778AB9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header span {
+    color: #778AB9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.watches {
+    margin: 70px 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.watches .watches1 {
+    position: relative;
+    transition: 0.3s;
+}
+
+.watche1 .D {
+    width: 100%;
+    height: 100%;
+}
+
+.watches1 p {
+    margin-top: 0px;
+    color: #5C6B89;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+}
+
+.watches1 span {
+    color: #766B76;
+    font-size: medium;
+}
+
+.watches1::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f86666;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+}
+
+.watches1::before {
+    content: "Add to Card";
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f86666;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.watches1:hover::before {
+    visibility: visible;
+}
+
+.watche {
+    margin: 70px 140px;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
+.watche .watche2 {
+    position: relative;
+    transition: 0.3s;
+}
+
+.watche2 p {
+    margin-top: 0px;
+    color: #5C6B89;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+}
+
+.watche2 span {
+    color: #766B76;
+    font-size: medium;
+}
+
+.watche2::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f86666;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+}
+
+.watche2::before {
+    content: "Add to Card";
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f86666;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    visibility: hidden;
+}
+
+.watche2:hover::before {
+    visibility: visible;
+}
+
+.watche2 .E {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.pictures {
+    margin: 70px 140px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.pictures .pictures1 {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px
+}
+
+.picture1 .F {
+    width: 100%;
+    height: 100%;
+}
+
+.pictures1 .G {
+    background-color: #FDDDE4;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.pictures1 .H {
+    background-color: #CDEBBC;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.pictures1 .I {
+    background-color: #D1E8F2;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.pictures1 .J {
+    background-color: #CDD4F8;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.pictures1 .K {
+    background-color: #F6DBF6;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.pictures1 .L {
+    background-color: #FFF2E5;
+    font-size: small;
+    width: fit-content;
+    margin: auto
+}
+
+.clothes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 70px 140px;
+    height: 180px;
+}
+
+.clothes .clothe1 {
+    background-image: url(banner/b7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.clothes .clothe2 {
+    background-image: url(banner/b4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.clothes .clothe3 {
+    background-image: url(banner/b18.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.clothes h3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clothes p {
+    color: #EC544E;
+    font-size: small;
+}
+
+.banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin: 70px 140px;
+    height: 270px;
+}
+
+.banners .banner1 {
+    background-image: url(banner/b17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.banners .banner2 {
+    background-image: url(banner/b10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.banners h2 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banners h5 {
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 70px;
+}
+
+.banners p {
+    color: white;
+    font-size: small;
+    margin-top: 0px;
+}
+
+.banner1 button {
+    color: white;
+    background-color: #FFBE5A;
+    border: 1px solid white;
+    font-size: x-small;
+    padding: 9px;
+}
+
+.banner2 button {
+    color: white;
+    background-color: #088170;
+    border: none;
+    font-size: x-small;
+    padding: 9px;
+}
+
+
+
+
+
